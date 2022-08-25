@@ -1,11 +1,42 @@
 <html>
     <head>
         <title>table</title>
+        <style>
+
+            th,td{
+                border: 2px solid black;
+
+            }
+            /*table {
+                border-collapse: collapse;
+                2px;}*/
+        tr{width: 20%;}
+    
+        th{
+            width: 20%;
+        }
+        th{ text-align: center;
+        padding-top: 20px;}
+        th,td{padding: 15px;}
+        td,th{ border-style:dotted;
+        border-color: blueviolet;}
+        td{ border-radius: 10px;}
+        th{border-radius: 10px;}
+        th{ background-color:cornflowerblue;}
+        /*td{background-color: burlywood;}*/
+        tr:nth-child(even){background-color:palegreen;}
+
+        tr:hover{background-color: darkgoldenrod;}
+        
+
+        </style>
     </head>
     <body>
 
 
-        <table>
+        <table style="width: 70%">
+            <colgroup>
+            <col span="2" style="background-color:blueviolet"></colgroup>
             
             
             <tr>
@@ -22,11 +53,55 @@
             <td>01</td>
             <td>Nadia</td>
             <td>Arfaq</td>
-            <td>CS</td>
+            <td rowspan="2">CS</td>
             <td>03415088246</td>
             <td>nadiaarfaq2020@gmail.com</td>
 
             </tr>
+            <tr>
+                <td>02</td>
+                <td>Sadia</td>
+                <td>Fazal</td>
+            
+                <td>03445072852</td>
+                <td>sadiafazal2002@gmail.com</td>
+    
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Kubra</td>
+                    <td>Khalid</td>
+                    <td>BSCS</td>
+                    <td>03315523315</td>
+                    <td>kubrakhalid333@gmail.com</td>
+        
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Ateel</td>
+                        <td>Ameer</td>
+                        <td>MS</td>
+                        <td>03330598285</td>
+                        <td>ateelameer7@gmail.com</td>
+            
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>Annas</td>
+                            <td>Khalique</td>
+                            <td>SE</td>
+                            <td>03443419613</td>
+                            <td>annaskhalaque1996@gmail.com</td>
+                
+                            </tr>
+                            <tr>
+                                <td>06</td>
+                                <td colspan="2">Habiba</td>
+                                <td>MCS</td>
+                                <td>03486723256</td>
+                                <td>habibakhan2022@gmail.com</td>
+                    
+                                </tr>
 
 
         </table>
