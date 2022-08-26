@@ -65,6 +65,30 @@ button{
         <p class="ateel">nadia from thorar</p>
     </div>
     <br>
+    
     <center><button onclick="myFunction()">Hide Element</button></center>
+    <br><center><button onclick="myShowFunction()">Display Element</button></center>
+
+    <script>
+        function myFunction(){ 
+            var x=document.getElementsByClassName("nadia");
+
+
+            for(var i=0; i<x.length;i++){
+                x[i].style.display="none";
+            }
+        }
+    </script>
+
+     <script>
+        function myShowFunction(){ 
+            var x=document.getElementsByClassName("nadia");
+
+
+            for(var i=0; i<x.length;i++){
+                x[i].style.display="all";
+            }
+        }
+    </script>
 </body>   
 </html>
