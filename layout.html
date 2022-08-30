@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <title>CSS Templete</title>
+    <meta charset="utf-8"><meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <style>
+        *{box-sizing: border-box;}
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*style the header*/
+        header{
+            background-color:darkgoldenrod;
+            padding: 30px;
+            text-align:center;
+            font-size:35px;
+            color:pink;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 100%;
+            background:wheat;
+            padding:20px;
+
+        }
+        nav ul{list-style: none;
+        padding: 0px;
+    }
+    article{
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color:plum;
+        height: 750px;
+    }
+    section::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer{
+        background-color: aquamarine;
+        padding: 10px;
+        text-align: center;
+        color:mediumslateblue;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+<h2>Cities</h2>
+</header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+                <li><a href="#">Rawalakot</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>London</h1>
+            <p>People say that “Great work comes from doing what you’re good at”, and it does make sense. We pride ourselves on years of experience in the writing market with thousands of students being helped. We can understand what you need, what you anticipate for and put all our heart and soul into every single word to create the finest writings. If school essays are still your nightmares, come to us for instant help.<br> Together, we will turn those worries into a real masterpiece!</p>
+        </p>
+        </article>
+       
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+
+
+
+</body>
+
+
+</html>
