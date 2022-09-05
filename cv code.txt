@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profational CV</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+
+        }
+        body
+        {
+            background-color: antiquewhite;
+            padding: 50px;
+            text-align:center;
+            line-height: 30px;
+            font-size: 35px;
+            color: rgb(245, 248, 248);
+        }
+        header
+        {
+            background-color: rgb(71, 71, 71);
+            color: white;
+            padding: 10px;
+            border-radius: 30px  30px 0px  0px;
+
+        }
+        img
+        {
+            float: left;
+            border-radius: 100px;
+            border: 2px solid white;
+            margin-left: 30px;
+        }
+        nav
+        {
+            float: left;
+            width: 40%;
+        height: 1000px;
+        background-color: darkcyan;
+        color: white;
+        padding: 20px;
+        text-align: left;
+        border-right: 3px solid white;
+        font-family: sans-serif;
+        }
+        nav ul li
+        {
+            list-style:square;
+            padding: 0;
+            font-size:25px;
+            font-family: sans-serif;
+        }
+        article{
+            float: left;
+        
+            width: 60%;
+            height: 1000px;
+            background-color: rgb(157, 158, 160);
+
+        
+
+        }
+        article ul li{
+            text-align:left;
+            list-style-type: none;
+            font-size: 22px;
+            font-family: sans-serif;
+        }
+
+        sub
+        {
+            font-size: 18px;
+            color: rgb(7, 216, 253);
+            font-family: sans-serif;
+        }
+        sup
+        {
+            color: rgb(8, 105, 129);
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+   
+        section:after
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+  h3
+        {
+  
+            text-align:left;
+            padding: 8px;
+            background-color: rgb(71, 71, 71);
+            border-radius: 0px  100px 0  0 ;
+            text-align: center;
+            border-right: 8px solid white;
+            border-left: 5px solid white;
+            font-size: 28px;
+        
+
+            color: white;
+            width: 400px;
+            font-family: sans-serif;
+      
+        }
+        h4{
+            background-color: rgb(17, 230, 201);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: sans-serif;
+            font-size: 28px;
+        }
+        h5
+        {
+            color: rgb(240, 150, 14);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        footer
+        {
+            background-color: rgb(71, 71, 71);
+            padding: 10px;
+            text-align: center;
+            border-radius:  0px  0px 30px  30px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1> <img src="pic2.jpg" alt="" height="150" width="150">Muhammad Anzel Majeed</h1>
+       <h5>Diploma of Associate Engineer ICT</h5>
+       
+    </header>
+    <section>
+        <nav>
+            <ul> <h4>Contact </h4>
+                <li>0347-5741632</li>
+                <li>anzallmajeeed1122@gmail.com</li>
+                <li>Barmang Khurd Po Khaigala District Poonch Rawalakot Azadkashmir</li>
+            </ul>
+            <ul><h4>Profational Skills </h4>
+                <li>Graphic Designing</li>
+                <li>Web Designing</li>
+                <li>Microsoft Office</li>
+                <li>Window & Software installation</li>
+                <li>Contant Writing</li>
+                <li>Good communication</li>
+                <li>Problem Solving</li>
+            </ul>
+
+            <ul><h4>Personal Info </h4>
+                <li>Father Name : Abdul Majeed</li>
+                <li>CNIC : 82303-8508457-1</li>
+                <li>Gender : Male</li>
+                <li>Nationality : Pakistani</li>
+                <li>Religion : Islam</li>
+                <li>Date of Birth : 03-07-1999</li>
+            
+            </ul>
+        </nav>
+        </nav>
+        <article>
+            <ul><h3>Education </h3>
+                <li> <sup>2015-2017</sup>Metric in Computer Science  <sub> AJK Board Mirpur</sub></li>
+                <li><sup>2017-2020</sup>Diploma of Associate Engineer<sub>PBTE Lahore</sub></li>
+                <li><sup>2020-2022</sup>Bachelor of Commerce<sub>AIOU Islamabad</sub></li>
+
+                <br>
+                <br>
+<ul><h3>Experience </h3>
+    <li>SESCO Tech Computers</li>
+    <li>Al Muneer Graphic</li>
+    <li>Alpine Institure Of ICT</li>
+
+    <br>
+    <br>
+<ul><h3>Certificates</h3>
+<li> <sup>2015-2016</sup> Graphic Designing</li>
+<li><sup>2015-2016</sup>Web Development</li>
+<li><sup>2015-2016</sup>Alpine Institure Of ICT</li>
+
+
+        </article>
+    </section>
+    <footer>
+        <h6>Applying : 
+            For the Course of Web Design and Development
+        </h6>
+        <h6>IT Excelence Center Rawalakot</h6>
+    </footer>
+    
+</body>
+</html>

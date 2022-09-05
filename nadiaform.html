@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: url(./th.jpg);
+                background-size:200%;
+            background-position: -400px 0px;
+            }
+            div.main{
+                width: 600vw;
+                margin: 100px auto opx auto;
+                
+            }
+            h2{
+                text-align:left;
+                padding: 20px;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+            div.register{
+               
+                width: 400px;
+                font-size: 18px;
+                border-radius: 10px;
+                border: 2px solid blueviolet;
+                box-shadow: 2px 2px 15px rgba(red, green, blue, alpha);
+                 color: aquamarine;
+            
+            }
+            form#register{
+                margin: 20%;
+            }
+            label{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 18px;
+                font-style: italic;
+                color:black;
+                font-size:large;
+            }
+            input#firstname{
+                width: 320px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+                outline: 0px;
+                padding: 7px;
+                background-color: azure;
+                box-shadow: inset 1px 1px 5px rgba(red, green, blue, alpha);
+            }
+            input#secondname{
+                width: 320px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+            }
+            input#password{
+                width: 330px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+            }
+
+            input#email{
+                width: 360px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+            }
+
+            input#mobile{
+                width: 350px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+            }
+            input#submit{
+                width: 200px;
+                padding: 7px;
+                font-size: 16px;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                border: none;
+                font-weight: 600;
+                border-radius: 3px;
+                background-color:palegoldenrod;
+            color:lightcoral;    
+        box-shadow: inset;  
+
+        margin: 200px;
+          }
+        label,span,h2{
+            text-shadow: 1px 1px 5px rgba(red, green, blue, alpha);
+
+        }
+
+
+
+
+        </style>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="register">
+                <h2>Register Here</h2>
+                <form method="post">
+                     First Name:<input type="text" id="firstname" name="firstname" placeholder="Enter your First Name"><br></br>
+                     Second Name:<input type="text" id="secondname" name="secondname" placeholder="Enter your Second Name"><br></br>
+Password:<input type="text" id="password" name="password" placeholder="Enter your Password"><br></br>
+Email:<input type="text" id="email" name="email" placeholder="Enter your Email"><br></br>
+Contact<input type="number" id="mobile" name="mobile" placeholder="Enter your Contact Number"><br></br>
+Gender:<input type="radio" name="radiogroup1" value="radio" id="radiogroup1">
+<label for="radiogroup">Male</label>
+<input type="radio" name="radiogroup2" value="radio" id="radiogroup2">
+<label for="radiogroup">Female</label>
+<h2 style="color:orange ;">Educational Qualification</h2><br>
+Degree:<select name="degree" id="degree">
+    <option>--Select Group--</option>
+    <option>Computer Science</option>
+    <option>Physicology</option>
+    <option>Data Science</option>
+    <option>Geography</option></select>
+    <br>
+    <br>
+    Filed:<select name="degree" id="degree">
+        <option>--Select Group--</option>
+        <option>Computer Science</option>
+        <option>Artificial intelligence</option>
+        <option>Mobile App</option>
+        <option>graphics</option>
+
+</select>
+<br>
+    <br>
+Hobbies
+<input type="checkbox" name="CheckboxGrpoup1" value="checkbox" id="CheckboxGrpoup1">
+
+<label for="CheckboxGrpoup1">Playing chess</label>
+<input type="checkbox" name="CheckboxGrpoup1" value="checkbox" id="CheckboxGrpoup1">
+
+    <label for="CheckboxGrpoup1">Reading books</label>
+<input type="checkbox" name="CheckboxGrpoup1" value="checkbox" id="CheckboxGrpoup1">
+<br><br>
+<H3 style="color:red"><b>Address</b></H3>
+<textarea name="textarea" cols="35" rows="5" id="textarea"></textarea>
+<br><br>
+<h2>Attach Resume</h2>
+<input type="file" name="fileField" id="fileField">
+<br><br>
+<div style="text-align: center">
+<input type="submit" value=" Submit">
+
+
+                </form>
+                </div>
+
+        </div>
+    </body>
+</html>
