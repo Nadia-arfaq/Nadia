@@ -1,4 +1,59 @@
 .layout{
+    background: url("./furniture\images\download.png"); 
     background-color:aqua;
-    height: 2rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+ul{
+    list-style: none;
+    display: flex;
+    gap:3rem;
+    padding: auto;
+    justify-content: center;
+}
+.slideshow-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+  }
+  .slideshow-container .text{
+    font-size: 4rem;
+    
+  }
+  .btn{
+    justify-content: center;
+    display: flex;
+  }
+  .btn a{
+    background-color: aqua;
+    width: 8rem;
+    height: 2rem;
+    text-decoration: none;
+  }
+  .services-section .heading{
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    background-color:beige;
+  }
+  .furniture-list{
+    display: flex;
+  }
+  .services-product{
+    justify-content: center;
+    text-align: center;  
+  }
+  .about-section{
+    background-color: darkorange;
+  }
+  .Our-Furniture{
+    justify-content: center;
+    text-align: center; 
+  }
+  .Furniture-product{
+    display: flex;
+  }
