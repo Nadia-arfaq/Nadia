@@ -1,9 +1,12 @@
 .layout{
-    background: url("./furniture\images\download.png"); 
-    background-color:aqua;
-    height: 5rem;
+    background: url("C:/Users/PC-3/Desktop/NaDiA/Nadia/furniture/images/pexels-photo-3932930.webp"); 
+   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+
+  background-attachment: fixed;
+  width: 100%;
+  height:100%;
 }
 ul{
     list-style: none;
@@ -12,48 +15,130 @@ ul{
     padding: auto;
     justify-content: center;
 }
-.slideshow-container{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: relative;
+.btn{
+text-decoration: none;
+font-style:italic;
+padding: 10px;
 
-  }
-  .slideshow-container .text{
-    font-size: 4rem;
-    
-  }
+
+}
+button{
+  border-radius: 44px;
+}
+.text h2{
+font-size: 3rem;
+}
+
+.text{
+  padding-top: 10rem;
+text-align: center;
+}
+  
+
+  
   .btn{
     justify-content: center;
     display: flex;
+    color: deepskyblue;
   }
   .btn a{
     background-color: aqua;
     width: 8rem;
     height: 2rem;
     text-decoration: none;
+   
   }
   .services-section .heading{
     justify-content: center;
     justify-items: center;
     display: grid;
     background-color:beige;
-  }
-  .furniture-list{
-    display: flex;
-  }
+  
+}
+.services-list{
+  display: flex;
+
+}
+.services-product h2{
+  text-align: center;
+}
   .services-product{
+
+    box-shadow:5rem;
+    margin: 5px;
+    padding: 2rem;
+    background-color: antiquewhite;
+  }
+  .services-product button{
     justify-content: center;
-    text-align: center;  
+  }
+  .btn{
+    text-decoration: none;
+    
+  }
+  button{
+    border-radius: 66px;
+    text-align: center;
+    justify-content: center;
   }
   .about-section{
-    background-color: darkorange;
+    background-color:mistyrose;
+  }
+
+  .about-head{
+    margin-left:12rem;
+
+
+  }
+  .about-head h2{
+  text-align: center;
+  }
+  .about-head p{
+    text-align: left;
+  }
+  
+  .about-image{
+    margin-left:25rem;
+
+  float: right;
+
+  }
+  .about-section{
+    display:flex ;
   }
   .Our-Furniture{
     justify-content: center;
     text-align: center; 
+    background-color: gainsboro;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    
   }
+  .Furniture-heading{
+ margin: 5rem;
+  }
+  
   .Furniture-product{
     display: flex;
+    
+
   }
+  .product1{
+text-transform:initial;
+margin-right: 10rem;
+  }
+
+.product2{
+text-transform:initial;
+margin-left: 20rem;
+
+
+}
+.pic{
+ background-image: url("C:/Users/PC-3/Desktop/NaDiA/Nadia/furniture/images/spacejoy-XpbtQfr9Skg-unsplash.jpg");
+ background-size: cover;
+
+  height: 100vh; 
+ width: 100vw
+  
+}
